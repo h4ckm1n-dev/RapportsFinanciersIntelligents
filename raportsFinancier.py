@@ -6,7 +6,7 @@ product_data = {
     "estimated_sales": 1200000,  # Ventes estimées
     "market_competition": "modérée",  # Niveau de concurrence
     "market_trend": "croissante",  # Tendance du marché
-    "risk_tolerance": "faible",  # Tolérance au risque de l'entreprise
+    "risk_tolerance": "10%",  # Tolérance au risque de l'entreprise
     "launch_timing": "6 mois",  # Délai potentiel avant lancement
     "investment_need": 200000,  # Besoin d'investissement supplémentaire
 }
