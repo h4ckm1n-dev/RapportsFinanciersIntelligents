@@ -11,7 +11,7 @@ product_data = {
     "investment_need": 200000,  # Besoin d'investissement supplémentaire
 }
 
-# Création d'un prompt plus détaillé pour une analyse plus profonde
+# Création d'un prompt plus détaillé avec des critères spécifiques
 prompt = f"""
 Tech Innovations Inc. envisage de lancer un nouveau produit sur le marché. Voici les données disponibles :
 - Coût de production : ${product_data['production_cost']}
@@ -22,7 +22,7 @@ Tech Innovations Inc. envisage de lancer un nouveau produit sur le marché. Voic
 - Délai avant lancement estimé : {product_data['launch_timing']}
 - Besoin d'investissement supplémentaire : ${product_data['investment_need']}
 
-En tenant compte de ces facteurs, recommandez-vous de lancer ce produit immédiatement ou de retarder son lancement ? Veuillez expliquer votre raisonnement en fonction des risques, des bénéfices attendus, de la concurrence, et des besoins d'investissement.
+Analysez les risques liés à un lancement immédiat et comparez-les aux bénéfices attendus. Si les coûts de production dépassent 50 % des ventes estimées ou si l'investissement supplémentaire dépasse le niveau de tolérance au risque, recommandez de retarder le lancement. Sinon, évaluez les bénéfices attendus et donnez une recommandation finale en fonction de la concurrence et de la tendance du marché.
 """
 
 # Initialiser le modèle Ollama avec Llama 3
