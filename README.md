@@ -1,6 +1,6 @@
 # RapportsFinanciersIntelligents
 
-Ce projet démontre comment utiliser les modèles de langage locaux, en particulier **Llama 3.1** via **LangChain** et **Ollama**, pour générer automatiquement des rapports financiers détaillés basés sur des données d'entreprise. Cela permet de générer rapidement des analyses financières et des recommandations, le tout en restant en local, sans avoir besoin de recourir à des services cloud.
+Ce projet démontre comment utiliser les modèles de langage locaux, en particulier **Llama 3.1** via **LangChain** et **Ollama**, pour générer automatiquement des rapports financiers détaillés basés sur des données d'entreprise en demandant au model des raisonement simple. Cela permet de générer rapidement des analyses financières et des recommandations, le tout en restant en local, sans avoir besoin de recourir à des services cloud.
 
 ## Fonctionnalités
 
